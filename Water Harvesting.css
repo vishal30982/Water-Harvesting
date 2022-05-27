@@ -1,0 +1,131 @@
+#navbar{
+    height: 45px;
+    width: 101.9%;
+    background-color: rgb(41, 40, 40);
+}
+#navbar ul{
+    overflow: auto;
+    padding: 0%;
+}
+nav ul li{
+    margin-top: 12px;
+    float: left;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    border-right: 0.5px solid red;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+hr{
+    margin-bottom: 2.5%;
+    border: 1px dashed rgb(41, 40, 40);
+}
+#content{
+    display: inline-block;
+    border: 1px solid rgb(41, 40, 40);
+    width: fit-content;
+}
+#content p{
+    font-family: cursive;
+    border: 2px dashed rgb(41, 40, 40);
+    margin: 20px;
+    padding: 34px;
+    width: 666px;
+    font-weight: 400;
+    line-height: 30px;
+}
+button{
+    margin-left: 2%;
+    background-color: rgb(41, 40, 40);
+}
+#btn-a{
+    text-decoration: none;
+    color: red;
+}
+button:hover{
+    background-color: white;
+}
+#img-div{
+    margin-top: 5.3%;
+    float: right;
+    overflow: auto;
+    height: 41.5%;
+    width: 41.3%;
+    border: 1px solid rgb(41, 40, 40);
+}
+img{
+    float: right;
+    width: 41.5vw;
+    height: 41.5%;
+    border: 1px solid rgb(41, 40, 40);
+}
+#img-caption p{
+    text-align: center;
+    border: 1px solid rgb(41, 40, 40);
+}
+#contents-list{
+    width: 33.5%;
+    margin-top: 3%;
+    border: 2px solid rgb(41, 40, 40);
+}
+#contents-list h2{
+    text-align: center;
+}
+#contents-list li{
+    list-style: none;
+}
+#contents-list li a{
+    color: blueviolet;
+    text-decoration: none;
+}
+#contents-list li a:hover{
+    color: red;
+}
+.numerals{
+    margin-right: 1%;
+}
+.Decimal{
+    margin: 1%;
+    color: black;
+}
+footer{
+    height: 160px;
+    margin-top: 2%;
+    overflow-x: auto;
+    width: 101%;
+    background-color: rgb(41, 40, 40);
+}
+footer p{
+    margin: 2.5% 1% 0% 1%;
+    white-space: pre-wrap;
+    color: white;
+}
+footer p a{
+    color: yellow;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: red;
+}
+footer div{
+    margin: 4% 0% 1%;
+    text-align: center;
+}
+footer .src-link{
+    margin-right: 1%;
+    color: pink;
+    text-decoration: none;
+}
+footer .src-link:hover{
+    color: red;
+    border: 1px solid pink;
+}
